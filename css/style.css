@@ -66,6 +66,12 @@ nav {
     display: block;
 }
 
+.navigation a.active {
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+}
+
 .navigation li:hover {
     /* just want to remove border here */
     border: 0px solid orange;
