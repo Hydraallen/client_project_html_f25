@@ -39,7 +39,7 @@ h1 {
 
 /* I first tried to make a hamburger menu but it did not work out. So I only made a normal and workable version here. */
 nav {
-    background-color: rgb(238, 238, 238);
+    background-color: #eeeeee;
     padding: 5px 0px;
 }
 
@@ -128,10 +128,11 @@ h3 {
     padding-left: 20px;
     grid-column: 1;
 }
+
 .item_list_vertical {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px; 
+    gap: 10px;
 }
 
 .item_list_decimal {
@@ -144,6 +145,7 @@ main li {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 li a {
     text-decoration: none;
     color: #003366;
